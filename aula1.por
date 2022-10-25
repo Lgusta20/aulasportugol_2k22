@@ -12,11 +12,13 @@ caracter vogais = 'a' //achar
 			
 			escreva("Qual seu nome?\n ")
 			leia(nome)
+			limpa()
 			escreva("seja bem vindo " + nome)
 
 real peso
 			escreva("\nQUAL SEU PESO?\n")
 			leia(peso)
+			limpa()
 			se(peso >= 45 e peso<= 85){
                escreva("Você ta magrinho")
 
@@ -39,7 +41,7 @@ inteiro op , quan
 		escreva("\n Qual tu quer?\n")
 		leia(op)
 		escolha(op)
-		
+		limpa()
 		{caso 1:
 		escreva("QUE ESCOLHA GOSTOSAAAA\n")
 		escreva("Agora escolhe a quantidade meu pit\n")
